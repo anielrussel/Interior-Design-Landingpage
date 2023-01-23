@@ -1,0 +1,108 @@
+.navbar.active {
+    background-color: var(--dark-blue) ;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7rem 2rem 7rem;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+.navbar-logo img {
+    width: 120px;
+}
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.navbar-links a {
+    font-weight: 500;
+    color: var(--black);
+    text-decoration: none;
+}
+.navbar-links a:hover,
+.navbar-links a:focus {
+    border-bottom: 2px solid black;
+}
+.navbar-links.active a {
+    color: white;
+}
+.navbar-links button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: var(--dark-blue);
+    color: white;
+    cursor: pointer;
+    font-family: var(--font-family);
+}
+.navbar-links.active button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.navbar-links button:hover,
+.navbar-links button:active {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.navbar-menu {
+    display: none;
+}
+.menu-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    padding: 3rem 0 3rem 0;
+}
+.menu-links a {
+    text-decoration: none;
+    color: var(--black);
+}
+.menu-links button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: var(--dark-blue);
+    color: white;
+    cursor: pointer;
+}
+.menu-links button:hover,
+.menu-links button:active {
+    background-color: white;
+    color: black;
+}
+@media screen and (max-width: 1024px) {
+    .navbar-links {
+        gap: 2rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .navbar-links {
+        display: none;
+    }
+    .navbar-menu{
+        display: block;
+    }
+}
+@media screen and (max-width: 425px) {
+    .navbar {
+        padding: 2rem;
+    }
+}
+

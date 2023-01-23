@@ -1,0 +1,220 @@
+.contact {
+    padding: 15rem 7rem 12rem 7rem;
+}
+.contact-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+.contact-header-text h1 {
+    font-size: 45px;
+    color: black;
+}
+.contact-header-text p {
+    width: 70%;
+    line-height: 1.5rem;
+}
+.contact-header-forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 15rem;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+.forms-name {
+    display: flex;
+    gap: 5rem;
+}
+.firstName,
+.lastName {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.firstName input,
+.lastName input {
+    padding-left: 1rem;
+    border: 2px solid var(--gray);
+    border-radius: 2px;
+    width: 400px;
+    height: 45px;
+}
+.firstName label,
+.lastName label,
+.forms-details label,
+.forms-message label {
+    font-weight: 500;
+}
+.forms-details,
+.forms-message {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.forms-details input {
+    width: 55rem;
+    height: 45px;
+    padding-left: 1rem;
+    border: 2px solid var(--gray);
+    border-radius: 2px;
+}
+.forms-message textarea {
+    width: 55rem;
+    height: 300px;
+    text-align: initial;
+    padding: 1rem;
+    border: 2px solid var(--gray);
+    border-radius: 2px;
+}
+.contact-header-forms button {
+    width: 10rem;
+    height: 3rem;
+    background-color: var(--dark-blue);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-family: var(--font-family);
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.contact-header-forms button:hover {
+    background-color: white;
+    border: 1px solid black;
+    color:  black;
+}
+
+
+.contact-location hr {
+    position: absolute;
+    top: 73.5rem;
+    left: 16rem;
+    width: 500px;
+    height: 3px;
+    background-color: black;
+}
+.contact-location p {
+    font-size: 14px;
+    font-weight: 600;
+}
+.contact-location-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.contact-location-text p {
+    color: var(--gray);
+    font-size: 14px;
+}
+.contact-location-text-column1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contact-location-text-column1 h1 {
+    color: var(--black);
+}
+.contact-location-text-column1 h2 {
+    font-size: 20px;
+    color: var(--black);
+}
+.contact-location-text-column2 {
+   display: flex;
+   flex-direction: column;
+   padding-left: 20rem;
+   gap: 2rem;
+}
+.contact-location-text-column2 h2 {
+    font-size: 20px;
+    color: var(--black);
+}
+.manila,
+.tokyo,
+.jakarta,
+.seoul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+@media screen and (max-width: 1440px) {
+    .contact-header-forms {
+        padding-right: 10rem;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .contact-header-forms {
+        padding-right: 0;
+    }
+    .firstName input, 
+    .lastName input {
+        width: 22.3rem;
+    }
+    .forms-details input {
+        width: 49.6rem;
+    }
+    .forms-message textarea {
+        width: 49.6rem;
+    }
+    .contact-location {
+        margin-top: 5rem;
+    }
+    .contact-location hr {
+        top: 78.4rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .firstName input, 
+    .lastName input {
+        width: 14.3rem;
+    }
+    .forms-details input {
+        width: 33.6rem;
+    }
+    .forms-message textarea {
+        width: 33.6rem;
+    }
+    .contact-location hr {
+        display: none;
+    }
+    .contact-location-text-column2 {
+        padding-left: 10rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    .contact {
+        padding: 15rem 2rem 12rem 2rem;
+    }
+    .forms-name {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .contact-header-forms {
+        justify-content: center;
+        align-items: center;
+    }
+    .firstName input, 
+    .lastName input {
+        width: 22.3rem;
+    }
+    .forms-details input {
+        width: 22.3rem;
+    }
+    .forms-message textarea {
+        width: 22.3rem;
+    }
+    .contact-location-text-column2 {
+        padding-left: 3rem;
+    }
+}

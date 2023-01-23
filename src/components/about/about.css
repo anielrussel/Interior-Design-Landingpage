@@ -1,0 +1,133 @@
+.aboutus {
+    padding: 15rem 7rem 12rem 7rem;
+}
+.aboutus-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus-header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+.aboutus-header-text h1 {
+    font-size: 45px;
+    color: black;
+}
+.aboutus-header-text p {
+    width: 70%;
+    line-height: 1.5rem;
+}
+.aboutus-header-image {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 4rem;
+}
+.aboutus-header-image img {
+    width: 100%;
+    height: 600px;
+}
+.aboutus-achievement {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 8rem;
+    gap: 4rem;
+}
+.aboutus-achievement-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.aboutus-achievement-text hr {
+    position: absolute;
+    top: 72.5rem;
+    left: 16rem;
+    width: 500px;
+    height: 3px;
+    background-color: black;
+}
+.aboutus-achievement-text p {
+    font-size: 14px;
+    font-weight: 600;
+}
+.aboutus-achievement-text h1 {
+    font-size: 35px;
+    width: 800px;
+}
+.aboutus-achievement-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+}
+.aboutus-header-bar {
+    width: 300px;
+    background-color: var(--dark-blue);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+.aboutus-bar-text h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+.aboutus-bar-text p {
+    margin-top: 2px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1440px) {
+    .aboutus-image img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .aboutus-achievement {
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutus-achievement-text {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .aboutus-achievement-text hr {
+        display: none;
+    }
+    .aboutus-achievement-text h1 {
+        font-size: 25px;
+        width: 400px;
+    }
+    .aboutus-bar-text h1 {
+        font-size: 25px;
+    }
+    .aboutus-bar-text p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .aboutus {
+        padding: 12rem 2rem 2rem 2rem;
+    }
+    .aboutus-footer {
+        margin-top: 5rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .aboutus-image img {
+        width: 130%;
+        height: 300px;
+    }
+}

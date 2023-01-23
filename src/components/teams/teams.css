@@ -1,0 +1,490 @@
+.teams {
+    padding: 15rem 7rem 7rem 7rem;
+}
+.teams-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.teams-header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+.teams-header-text h1 {
+    font-size: 45px;
+    color: black;
+}
+.teams-header-text p {
+    width: 70%;
+    line-height: 1.5rem;
+}
+.teams-header-image {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 4rem;
+}
+.teams-header-image img {
+    width: 100%;
+    height: 600px;
+}
+/*about start*/
+.teams-about {
+    margin-top: 8rem;
+}
+.teams-about-text p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.teams-about-text h1 {
+    margin-top: 1.5rem;
+    color: var(--black);
+    line-height: 3rem;
+}
+.teams-about-text hr {
+    position: absolute;
+    width: 500px;
+    top: 72.5rem;
+    left: 15rem;
+    height: 3px;
+    background-color: black;
+}
+.teams-about-minimalist-image {
+    margin-top: 3rem;
+}
+.teams-about-minimalist-image img {
+    width: 60%;
+}
+.minimalist-ceo {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--medium-blue);
+    color: white;
+    width: 20rem;
+    height: 7rem;
+    right: 450px;
+    top: 77rem;
+    font-weight: 500;
+    box-shadow: var(--dark-blue) 0px 7px 29px 0px;
+}
+.minimalist-ceo-text p {
+    margin-bottom: 5px;
+}
+.minimalist-ceo-text span {
+    color: var(--gray);
+}
+.minimalist-ceo img {
+    width: 80px;
+    border-radius: 50%;
+}
+.minimalist-ceo-speech {
+    position: absolute;
+    top: 88rem;
+    right: 10rem;
+    width: 400px;
+}
+.minimalist-ceo-speech h1 {
+    color: var(--black);
+}
+.minimalist-ceo-speech p {
+    font-size: 20px;
+    color: var(--gray);
+    line-height: 30px;
+    margin-top: 2rem;
+}
+.minimalist-ceo-speech button {
+    margin-top: 2rem;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: var(--medium-blue);
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: var(--font-family);
+}
+.minimalist-ceo-speech button:hover,
+.minimalist-ceo-speech button:active,
+.minimalist-ceo-speech button:visited{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.vintage-ceo {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--medium-blue);
+    color: white;
+    width: 20rem;
+    height: 7rem;
+    top: 112rem;
+    left: 30rem;
+    font-weight: 500;
+    box-shadow: var(--dark-blue) 0px 7px 29px 0px;
+}
+.vintage-ceo-text p {
+    margin-bottom: 5px;
+}
+.vintage-ceo-text span {
+    color: var(--gray);
+}
+.vintage-ceo img {
+    width: 80px;
+    border-radius: 50%;
+}
+.vintage-ceo-speech {
+    position: absolute;
+    top: 124rem;
+    left: 10rem;
+    width: 400px;
+}
+.vintage-ceo-speech h1 {
+    color: var(--black);
+}
+.vintage-ceo-speech p {
+    font-size: 20px;
+    color: var(--gray);
+    line-height: 30px;
+    margin-top: 2rem;
+}
+.vintage-ceo-speech button {
+    margin-top: 2rem;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: var(--medium-blue);
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: var(--font-family);
+}
+.vintage-ceo-speech button:hover,
+.vintage-ceo-speech button:active,
+.vintage-ceo-speech button:visited{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.teams-about-vintage-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 3rem;
+}
+.teams-about-vintage-image img {
+    width: 60%;
+}
+
+
+
+.teams-about-modern-image {
+    margin-top: 3rem;
+}
+.teams-about-modern-image img {
+    width: 60%;
+}
+.modern-ceo {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--medium-blue);
+    color: white;
+    width: 20rem;
+    height: 7rem;
+    right: 450px;
+    top: 148rem;
+    font-weight: 500;
+    box-shadow: var(--dark-blue) 0px 7px 29px 0px;
+}
+.modern-ceo-text p {
+    margin-bottom: 5px;
+}
+.modern-ceo-text span {
+    color: var(--gray);
+}
+.modern-ceo img {
+    width: 80px;
+    border-radius: 50%;
+}
+.modern-ceo-speech {
+    position: absolute;
+    top: 159rem;
+    right: 10rem;
+    width: 400px;
+}
+.modern-ceo-speech h1 {
+    color: var(--black);
+}
+.modern-ceo-speech p {
+    font-size: 20px;
+    color: var(--gray);
+    line-height: 30px;
+    margin-top: 2rem;
+}
+.modern-ceo-speech button {
+    margin-top: 2rem;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: var(--medium-blue);
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: var(--font-family);
+}
+.modern-ceo-speech button:hover,
+.modern-ceo-speech button:active,
+.modern-ceo-speech button:visited{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+
+.traditional-ceo {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--medium-blue);
+    color: white;
+    width: 20rem;
+    height: 7rem;
+    top: 185rem;
+    left: 30rem;
+    font-weight: 500;
+    box-shadow: var(--dark-blue) 0px 7px 29px 0px;
+}
+.traditional-ceo-text p {
+    margin-bottom: 5px;
+}
+.traditional-ceo-text span {
+    color: var(--gray);
+}
+.traditional-ceo img {
+    width: 80px;
+    border-radius: 50%;
+}
+.traditional-ceo-speech {
+    position: absolute;
+    top: 197rem;
+    left: 10rem;
+    width: 400px;
+}
+.traditional-ceo-speech h1 {
+    color: var(--black);
+}
+.traditional-ceo-speech p {
+    font-size: 20px;
+    color: var(--gray);
+    line-height: 30px;
+    margin-top: 2rem;
+}
+.traditional-ceo-speech button {
+    margin-top: 2rem;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: var(--medium-blue);
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: var(--font-family);
+}
+.traditional-ceo-speech button:hover,
+.traditional-ceo-speech button:active,
+.traditional-ceo-speech button:visited{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.teams-about-traditional-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 3rem;
+}
+.teams-about-traditional-image img {
+    width: 60%;
+}
+/*about end*/
+
+@media screen and (max-width: 1024px) {
+    .minimalist-ceo {
+        width: 17rem;
+        height: 5rem;
+        right: 120px;
+        top: 76.3rem;
+    }
+    .minimalist-ceo img,
+    .vintage-ceo img,
+    .modern-ceo img,
+    .traditional-ceo img {
+        width: 60px;
+    }
+    .minimalist-ceo-speech {
+        top: 83rem;
+        right: 12rem;
+        width: 200px;
+    }
+    .minimalist-ceo-speech h1,
+    .vintage-ceo-speech h1,
+    .modern-ceo-speech h1,
+    .traditional-ceo-speech h1 {
+        font-size: 20px;
+    }
+    .minimalist-ceo-speech p,
+    .vintage-ceo-speech p,
+    .modern-ceo-speech p,
+    .traditional-ceo-speech p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 1rem;
+    }
+    .teams-about-vintage-image,
+    .teams-about-modern-image,
+    .teams-about-traditional-image {
+        margin-top: 8rem;
+    }
+    .vintage-ceo {
+        width: 17rem;
+        height: 5rem;
+        top: 102.8rem;
+        left: 7rem;
+    }
+    .vintage-ceo-speech {
+        top: 110rem;
+        left: 7rem;
+        width: 200px;
+    }
+    .modern-ceo {
+        width: 17rem;
+        height: 5rem;
+        top: 130.1rem;
+        right: 112px;
+    }
+    .modern-ceo-speech {
+        top: 138rem;
+        right: 11.5rem;
+        width: 200px;
+    }
+    .traditional-ceo {
+        width: 17rem;
+        height: 5rem;
+        top: 158.4rem;
+        left: 7.5rem;
+    }
+    .traditional-ceo-speech {
+        width: 200px;
+        top: 166rem;
+        left: 7.8rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .teams-about-text hr {
+        display: none;
+    }
+    .teams-about {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .teams-about-minimalist-image img,
+    .teams-about-vintage-image img,
+    .teams-about-modern-image img,
+    .teams-about-traditional-image img {
+        width: 100%;
+    }
+    .teams-about-vintage-image,
+    .teams-about-modern-image,
+    .teams-about-traditional-image {
+        margin-top: 20rem;
+    }
+    .teams-whychooseus {
+        margin-top: 30rem;
+    }
+    .minimalist-ceo {
+        top: 100rem;
+        left: 7rem;
+    }
+    .minimalist-ceo-speech {
+        top: 100rem;
+        right: 7rem;
+    }
+    .vintage-ceo {
+        top: 142rem;
+        left: 7rem;
+    }
+    .vintage-ceo-speech {
+        top: 142rem;
+        left: 28rem;
+    }
+    .modern-ceo {
+        top: 185rem;
+        right: 385px;
+    }
+    .modern-ceo-speech {
+        top: 185rem;
+        right: 7rem;
+    }
+    .traditional-ceo {
+        top: 228rem;
+        left: 7rem;
+    }
+    .traditional-ceo-speech {
+        top: 228rem;
+        left: 28rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    .teams {
+        padding: 15rem 2rem 2rem 2rem;
+    }
+    .minimalist-ceo {
+        top: 94rem;
+        left: 5rem;
+    }
+    .minimalist-ceo-speech {
+        top: 101rem;
+    }
+    .vintage-ceo {
+        top: 134rem;
+        left: 5rem;
+    }
+    .vintage-ceo-speech {
+        top: 141rem;
+        left: 7rem;
+    }
+    .modern-ceo {
+        top: 174rem;
+        left: 5rem;
+    }
+    .modern-ceo-speech {
+        top: 181rem;
+        right: 7rem;
+    }
+    .traditional-ceo {
+        top: 214.5rem;
+        left: 5rem;
+    }
+    .traditional-ceo-speech {
+        top: 222rem;
+        left: 7rem;
+    }
+    .teams-about-vintage-image,
+    .teams-about-modern-image,
+    .teams-about-traditional-image {
+        margin-top: 25rem;
+    }
+}

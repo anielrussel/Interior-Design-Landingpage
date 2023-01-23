@@ -1,0 +1,153 @@
+.whychooseus {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 8rem;
+    gap: 2rem;
+}
+.whychooseus-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.whychooseus-text p {
+    font-size: 14px;
+    font-weight: 600;
+}
+.whychooseus-text h1 {
+    font-size: 35px;
+    width: 800px;
+}
+.whychooseus-text h2 {
+    font-size: 16px;
+    width: 600px;
+    font-weight: 500;
+    line-height: 25px;
+    color: var(--gray);
+}
+.whychooseus-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4.8rem;
+}
+.highquality {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    border: 1px solid var(--dark-blue);
+    padding: 2rem 1rem;
+    gap: 2rem;
+}
+.highquality-image {
+    border-radius: 50%;
+    padding: 5px 7px 5px 7px;
+    background-color: gray;
+}
+.highquality img {
+    width: 50px;
+}
+.highquality h1 {
+    font-size: 25px;
+    color: var(--black);
+}
+.highquality p {
+    color: var(--gray);
+}
+.professional-designer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    border: 1px solid var(--dark-blue);
+    padding: 2rem 1rem;
+    gap: 2rem;
+}
+.professional-designer-image {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.professional-designer img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.professional-designer h1 {
+    font-size: 25px;
+    color: var(--black);
+}
+.professional-designer p {
+    color: var(--gray);
+}
+.best-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    border: 1px solid var(--dark-blue);
+    padding: 2rem 1rem;
+    gap: 2rem;
+}
+.best-service-image {
+    border-radius: 50%;
+    padding: 5px 7px 5px 7px;
+    background-color: gray;
+}
+.best-service img {
+    width: 45px;
+}
+.best-service h1 {
+    font-size: 25px;
+    color: var(--black);
+}
+.best-service p {
+    color: var(--gray);
+}
+@media screen and (max-width: 768px) {
+    .whychooseus {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .whychooseus-text {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .whychooseus-card {
+        justify-content: center;
+        align-items: center;
+    }
+    .whychooseus-text h1 {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .whychooseus-text h1 {
+        width: 300px;
+    }
+    .whychooseus-text h2 {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .highquality,
+    .professional-designer,
+    .best-service {
+        width: 350px;
+    }
+}
